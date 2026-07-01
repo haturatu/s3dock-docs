@@ -1,14 +1,14 @@
 ---
 title: "S3Dock"
-description: "S3互換ストレージ用 Android クライアント。"
-eyebrow: "S3互換ストレージ用 Android クライアント"
-lead: "自分で管理している S3 互換ストレージに接続し、ファイル閲覧、メディアプレビュー、音楽再生、アップロード、バケット管理、オフライン保持を行えます。"
+description: "オブジェクトストレージ用 Android クライアント。"
+eyebrow: "オブジェクトストレージ用 Android クライアント"
+lead: "自分で管理している オブジェクトストレージに接続し、ファイル閲覧、メディアプレビュー、音楽再生、アップロード、バケット管理、オフライン保持を行えます。"
 primaryAction: "プライバシーポリシー"
 ---
 
 ## ユーザー所有のストレージ向け
 
-S3Dock はクラウドアカウントを提供しません。Amazon S3、Cloudflare R2、MinIO、Wasabi、Backblaze B2、DigitalOcean Spaces、その他の S3 互換エンドポイントをユーザー自身が設定して利用します。
+S3Dock はクラウドアカウントを提供しません。Amazon S3、Cloudflare R2、MinIO、Wasabi、Backblaze B2、DigitalOcean Spaces、その他のバケットエンドポイントをユーザー自身が設定して利用します。
 
 <div class="cards">
   <div class="card">

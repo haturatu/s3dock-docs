@@ -6,7 +6,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "S3Dock is an Android client for S3-compatible storage with file browsing, media playback, offline access, and local cache controls."
+  description = "S3Dock is an Android client for object storage with file browsing, media playback, offline access, and local cache controls."
   appName = "S3Dock"
 
 [markup.goldmark.renderer]

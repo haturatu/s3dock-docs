@@ -4,7 +4,7 @@ description: "Privacy policy for S3Dock."
 date: 2026-07-01
 ---
 
-This Privacy Policy explains how S3Dock handles information. S3Dock is a user-configured Android client for S3-compatible storage. The app does not provide a cloud storage account and does not operate a developer-controlled server for storing user files.
+This Privacy Policy explains how S3Dock handles information. S3Dock is a user-configured Android client for object storage. The app does not provide a cloud storage account and does not operate a developer-controlled server for storing user files.
 
 Developer: haturatu.
 
@@ -12,7 +12,7 @@ Developer: haturatu.
 
 Depending on how you configure and use the app, S3Dock may store or process the following data on your device:
 
-- S3-compatible endpoint, bucket name, region, access key ID, and secret access key
+- S3-compatible object storage endpoint, bucket name, region, access key ID, and secret access key
 - File names, folder names, object sizes, modified dates, and media metadata
 - Photos, videos, audio files, documents, and other files selected by you
 - Local cache files, thumbnails, offline files, download history, favorites, scan folders, and playback state
@@ -24,7 +24,7 @@ The app may also access files, folders, media, notification permission, and fore
 
 S3Dock uses this data to provide file browsing, media preview, media playback, upload, download, offline access, cache management, and storage management features.
 
-S3Dock connects directly from your device to the S3-compatible endpoint configured by you. The app does not intentionally send your files, credentials, or storage metadata to the app developer.
+S3Dock connects directly from your device to the S3-compatible object storage endpoint configured by you. The app does not intentionally send your files, credentials, or storage metadata to the app developer.
 
 S3Dock does not include advertising SDKs and does not use your data for advertising.
 
@@ -32,7 +32,7 @@ S3Dock does not include advertising SDKs and does not use your data for advertis
 
 S3Dock requests permissions only when they are needed for app features:
 
-- Internet access is used to connect to the S3-compatible storage endpoint configured by you.
+- Internet access is used to connect to the object storage endpoint configured by you.
 - Notification permission is used to show transfer progress and media playback controls where required by Android.
 - Foreground service media playback permission is used only while playing audio selected by you.
 - Storage write permission may be requested on older Android versions to save files to the public Downloads folder.
@@ -46,7 +46,7 @@ The app may provide explicit export options for device migration. If you choose 
 
 ## Network Connections
 
-Network requests are made to the endpoints you configure, such as Amazon S3, Cloudflare R2, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces, or other S3-compatible services.
+Network requests are made to the endpoints you configure, such as Amazon S3, Cloudflare R2, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces, or other S3-compatible object storage services.
 
 HTTPS is recommended. HTTP endpoints may expose credentials, signed URLs, file contents, and metadata to the network and should only be used in trusted local environments.
 
@@ -64,11 +64,11 @@ S3Dock does not intentionally sell, share, or transfer your data to the app deve
 
 ## Data Deletion
 
-You can remove saved providers, clear cache, delete offline files, delete exported backup files, and uninstall the app to remove local app data. Files stored in your S3-compatible storage remain under your control and must be managed through that storage provider or through the app.
+You can remove saved providers, clear cache, delete offline files, delete exported backup files, and uninstall the app to remove local app data. Files stored in your object storage remain under your control and must be managed through that storage provider or through the app.
 
 Local app settings, saved providers, favorites, cache metadata, media indexes, offline selections, and playback state are retained on your device until you delete them in the app, clear app data, or uninstall the app. Cache files may also be removed when you clear cache from the app settings.
 
-S3Dock does not provide an app account system. If you use an external S3-compatible storage provider, account deletion and remote data retention are controlled by that provider.
+S3Dock does not provide an app account system. If you use an external object storage provider, account deletion and remote data retention are controlled by that provider.
 
 ## Children
 

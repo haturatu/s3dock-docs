@@ -1,14 +1,14 @@
 ---
 title: "S3Dock"
-description: "Android client for S3-compatible storage."
-eyebrow: "Android client for S3-compatible storage"
-lead: "Browse files, preview media, play music, upload content, manage buckets, and keep selected files available offline from your own S3-compatible storage."
+description: "Android client for object storage."
+eyebrow: "Android client for object storage"
+lead: "Browse files, preview media, play music, upload content, manage buckets, and keep selected files available offline from your own object storage."
 primaryAction: "Privacy Policy"
 ---
 
 ## Built for user-owned storage
 
-S3Dock does not provide a cloud account. You connect your own Amazon S3, Cloudflare R2, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces, or another S3-compatible endpoint.
+S3Dock does not provide a cloud account. You connect your own Amazon S3, Cloudflare R2, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces, or another S3-compatible object storage endpoint.
 
 <div class="cards">
   <div class="card">
