@@ -27,10 +27,10 @@ The generated site is written to `public/`.
 3. Push to the `main` branch.
 4. The workflow in `.github/workflows/deploy.yml` builds and deploys the site.
 
-Default Pages URL:
+Custom domain:
 
 ```text
-https://haturatu.github.io/s3dock-docs/
+https://s3dock.soulminingrig.com/
 ```
 
-If the repository owner or name changes, update `baseURL` in `hugo.toml`.
+If the domain changes, update `baseURL` in `hugo.toml` and `static/CNAME`.
