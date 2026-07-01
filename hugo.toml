@@ -1,0 +1,45 @@
+baseURL = "https://haturatu.github.io/s3dock-docs/"
+title = "S3Dock"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "S3Dock is an Android client for S3-compatible storage with file browsing, media playback, offline access, and local cache controls."
+  appName = "S3Dock"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+    title = "S3Dock"
+    contentDir = "content/en"
+  [languages.ja]
+    label = "日本語"
+    weight = 2
+    title = "S3Dock"
+    contentDir = "content/ja"
+
+[[languages.en.menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Privacy"
+  pageRef = "/privacy"
+  weight = 2
+
+[[languages.ja.menu.main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 1
+
+[[languages.ja.menu.main]]
+  name = "プライバシー"
+  pageRef = "/privacy"
+  weight = 2

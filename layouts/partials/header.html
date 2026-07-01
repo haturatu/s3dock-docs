@@ -1,0 +1,18 @@
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="{{ site.Home.RelPermalink }}">
+      <img class="brand-mark" src="{{ "app-icon.png" | relURL }}" alt="" width="34" height="34">
+      <span>{{ site.Title }}</span>
+    </a>
+    <div class="nav-links">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      {{ end }}
+      <div class="language-links" aria-label="Language">
+        {{ range .AllTranslations }}
+          <a href="{{ .RelPermalink }}">{{ upper .Language.Lang }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+</header>
