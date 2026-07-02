@@ -4,7 +4,7 @@ description: "How to set up and use S3Dock."
 toc: true
 ---
 
-This page explains the basic setup flow for S3Dock. The screenshots are taken from the Android app with the system status bar and navigation bar removed.
+This page explains the basic setup flow for S3Dock.
 
 ## Before you start
 
