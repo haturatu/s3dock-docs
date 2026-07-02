@@ -5,9 +5,39 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
 [params]
   description = "S3Dock is an Android client for object storage with file browsing, media playback, offline access, and local cache controls."
   appName = "S3Dock"
+  displayUpdatedDate = false
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = true
+
+    [params.navbar.logo]
+      path = "app-icon.png"
+      link = "/"
+      width = 32
+      height = 32
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.editURL]
+    enable = false
+
+  [params.page]
+    width = "wide"
+    displayPagination = false
+
+  [params.footer]
+    displayPoweredBy = false
+    displayCopyright = false
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -34,6 +64,24 @@ disableKinds = ["taxonomy", "term"]
   pageRef = "/privacy"
   weight = 2
 
+[[languages.en.menu.main]]
+  name = "Search"
+  weight = 3
+  [languages.en.menu.main.params]
+    type = "search"
+
+[[languages.en.menu.main]]
+  name = "Theme"
+  weight = 4
+  [languages.en.menu.main.params]
+    type = "theme-toggle"
+
+[[languages.en.menu.main]]
+  name = "Language"
+  weight = 5
+  [languages.en.menu.main.params]
+    type = "language-switch"
+
 [[languages.ja.menu.main]]
   name = "ホーム"
   pageRef = "/"
@@ -43,3 +91,21 @@ disableKinds = ["taxonomy", "term"]
   name = "プライバシー"
   pageRef = "/privacy"
   weight = 2
+
+[[languages.ja.menu.main]]
+  name = "検索"
+  weight = 3
+  [languages.ja.menu.main.params]
+    type = "search"
+
+[[languages.ja.menu.main]]
+  name = "テーマ"
+  weight = 4
+  [languages.ja.menu.main.params]
+    type = "theme-toggle"
+
+[[languages.ja.menu.main]]
+  name = "言語"
+  weight = 5
+  [languages.ja.menu.main.params]
+    type = "language-switch"
