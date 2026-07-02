@@ -60,25 +60,30 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
 
 [[languages.en.menu.main]]
-  name = "Privacy"
-  pageRef = "/privacy"
+  name = "Usage"
+  pageRef = "/usage"
   weight = 2
 
 [[languages.en.menu.main]]
-  name = "Search"
+  name = "Privacy"
+  pageRef = "/privacy"
   weight = 3
+
+[[languages.en.menu.main]]
+  name = "Search"
+  weight = 4
   [languages.en.menu.main.params]
     type = "search"
 
 [[languages.en.menu.main]]
   name = "Theme"
-  weight = 4
+  weight = 5
   [languages.en.menu.main.params]
     type = "theme-toggle"
 
 [[languages.en.menu.main]]
   name = "Language"
-  weight = 5
+  weight = 6
   [languages.en.menu.main.params]
     type = "language-switch"
 
@@ -88,24 +93,29 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
 
 [[languages.ja.menu.main]]
-  name = "プライバシー"
-  pageRef = "/privacy"
+  name = "使い方"
+  pageRef = "/usage"
   weight = 2
 
 [[languages.ja.menu.main]]
-  name = "検索"
+  name = "プライバシー"
+  pageRef = "/privacy"
   weight = 3
+
+[[languages.ja.menu.main]]
+  name = "検索"
+  weight = 4
   [languages.ja.menu.main.params]
     type = "search"
 
 [[languages.ja.menu.main]]
   name = "テーマ"
-  weight = 4
+  weight = 5
   [languages.ja.menu.main.params]
     type = "theme-toggle"
 
 [[languages.ja.menu.main]]
   name = "言語"
-  weight = 5
+  weight = 6
   [languages.ja.menu.main.params]
     type = "language-switch"
