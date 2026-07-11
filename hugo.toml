@@ -70,20 +70,30 @@ disableKinds = ["taxonomy", "term"]
   weight = 3
 
 [[languages.en.menu.main]]
-  name = "Search"
+  name = "Troubleshooting"
+  pageRef = "/troubleshooting"
   weight = 4
+
+[[languages.en.menu.main]]
+  name = "File formats"
+  pageRef = "/file-formats"
+  weight = 5
+
+[[languages.en.menu.main]]
+  name = "Search"
+  weight = 6
   [languages.en.menu.main.params]
     type = "search"
 
 [[languages.en.menu.main]]
   name = "Theme"
-  weight = 5
+  weight = 7
   [languages.en.menu.main.params]
     type = "theme-toggle"
 
 [[languages.en.menu.main]]
   name = "Language"
-  weight = 6
+  weight = 8
   [languages.en.menu.main.params]
     type = "language-switch"
 
@@ -103,19 +113,29 @@ disableKinds = ["taxonomy", "term"]
   weight = 3
 
 [[languages.ja.menu.main]]
-  name = "検索"
+  name = "トラブルシューティング"
+  pageRef = "/troubleshooting"
   weight = 4
+
+[[languages.ja.menu.main]]
+  name = "対応ファイル形式"
+  pageRef = "/file-formats"
+  weight = 5
+
+[[languages.ja.menu.main]]
+  name = "検索"
+  weight = 6
   [languages.ja.menu.main.params]
     type = "search"
 
 [[languages.ja.menu.main]]
   name = "テーマ"
-  weight = 5
+  weight = 7
   [languages.ja.menu.main.params]
     type = "theme-toggle"
 
 [[languages.ja.menu.main]]
   name = "言語"
-  weight = 6
+  weight = 8
   [languages.ja.menu.main.params]
     type = "language-switch"
