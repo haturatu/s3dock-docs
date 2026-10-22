@@ -1,5 +1,5 @@
 module github.com/haturatu/s3dock-docs
 
-go 1.26.4
+go 1.27.3
 
 require github.com/imfing/hextra v0.12.3 // indirect
